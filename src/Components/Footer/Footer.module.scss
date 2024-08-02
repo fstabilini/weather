@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  transition: opacity 0.3s;
+}
+
+.icon:hover {
+  opacity: 0.7;
+}
+
+.copyright {
+  font-size: 14px;
+}

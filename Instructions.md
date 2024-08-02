@@ -7,7 +7,7 @@ Cada dia al terminar de programar, subir los cambios con git add, git commit, gi
 
 https://api.weatherapi.com/v1/
 
-Para poder usar esta API hace falta en todos los requests utilizar un API key como parametro. Investigar y aprender sobre enviar parametros a APIs
+Para poder usar esta API hace falta en todos los requests utilizar un API key como parametro. Investigar y aprender sobre enviar prametros
 
 Tu API key es 0a062eeb23cf442db63134744240108
 
