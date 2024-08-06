@@ -1,0 +1,54 @@
+.container {
+  padding: 60px;
+  margin: 60px auto; /* Centra verticalmente con margen automático */
+  background: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%; /* Ajusta el ancho del contenedor si es necesario */
+  max-width: 600px; /* Ancho máximo para mantener un diseño responsivo */
+  box-sizing: border-box; /* Incluye padding y border en el ancho total */
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr; /* Una columna para centrar elementos */
+  gap: 20px;
+  align-items: center;
+}
+
+label {
+  display: flex;
+  flex-direction: column; /* Alinea label y input verticalmente */
+  margin-bottom: 10px; /* Espacio entre los campos de entrada */
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%; /* Asegura que los campos ocupen el ancho completo */
+}
+
+button {
+  padding: 10px;
+  margin-top: 20px;
+  background-color: hsl(252, 74%, 54%);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4c66e7;
+}
+
+.forecastInfo {
+  margin-top: 20px;
+  text-align: center; /* Centra el texto y otros elementos dentro de la sección */
+}
+
+.dayInfo {
+  margin-bottom: 20px;
+}
